@@ -10,4 +10,4 @@ fileupload.sys
 	数据库配置文件--fileupload.sys\src\main\resources\spring\spring-db-context.xml  
 	mvc配置文件--fileupload.sys\src\main\resources\spring\spring-mvc-context.xml  
 3、本地发布后就可以进行访问：  
-    http://localhost:8080/fileupload.sys
+    http://localhost:8086/sys
