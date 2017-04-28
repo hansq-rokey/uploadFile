@@ -55,12 +55,11 @@ public class UserFileService {
 	}
 	
 	/**
-	 * 查询用户上传文件列表
-	 * 
+	 * @Description:查询用户上传文件列表
 	 * @param map
-	 * @return List<UserFileDTO>
-	 * @author fantasy
-	 * @date 2013-12-3
+	 * @return List
+	 * @author hansq
+	 * @date 2017-4-28 下午4:24:28
 	 */
 	public List findPage(Map<String, Object> map){
 		logger.info(LogUtil.getLogStr("findUserFileList","200",map,"",""));
