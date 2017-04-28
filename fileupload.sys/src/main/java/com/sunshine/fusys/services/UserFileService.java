@@ -61,6 +61,7 @@ public class UserFileService {
 	 * @author hansq
 	 * @date 2017-4-28 下午4:24:28
 	 */
+	
 	public List findPage(Map<String, Object> map){
 		logger.info(LogUtil.getLogStr("findUserFileList","200",map,"",""));
 //		Pagination pager = PageContext.getPageContext();
